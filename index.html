@@ -21,60 +21,223 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <!-- Venstre navigation -->
       <nav class="nav-left" aria-label="Main navigation">
         <a href="#collection">SHOP</a>
         <a href="#about">ABOUT</a>
       </nav>
 
-      <!-- Logo -->
       <a href="index.html" class="logo">
         <img src="img/logo.webp" alt="Yori Jomo" />
       </a>
 
-      <!-- Højre navigation -->
       <div class="nav-right">
-        <!-- Søgeikon -->
         <button class="icon-button" type="button" aria-label="Search">
-          <img src="img/soge.webp" class="search-icon" alt="" />
+          <img src="img/soge.webp" class="search-icon" alt="søge" />
         </button>
 
-        <!-- Shopping bag -->
         <button class="icon-button" type="button" aria-label="Shopping bag">
-          <img src="img/bag.webp" class="bag-icon" alt="" />
+          <img src="img/bag.webp" class="bag-icon" alt="shop bag" />
         </button>
       </div>
     </header>
 
-    <!-- MAIN CONTENT -->
     <main>
       <!-- HERO SECTION -->
       <section class="hero">
-        <!-- Hero billede -->
         <img
           src="img/herobillede.webp"
-          alt="Yori Jomo fashion campaign"
+          alt="Yori Jomo campaign"
           class="hero-image"
         />
 
-        <!-- Hero indhold -->
         <div class="hero-content">
-          <!-- Yori Jomo logo -->
           <div class="hero-logo">YORI JOMO</div>
 
-          <!-- Overskrift -->
           <h1>JOY OF CHOOSING</h1>
 
-          <!-- Beskrivelse -->
           <p>
             Italian craftsmanship. Copenhagen<br />
             perspective.
           </p>
 
-          <!-- Knap -->
           <a href="#collection" class="hero-button"> View the collection </a>
         </div>
       </section>
+
+      <!-- THE NEW COLLECTION -->
+      <section class="collection" id="collection">
+        <div class="section-heading">
+          <h2>The new collection</h2>
+          <a href="#products">See all</a>
+        </div>
+
+        <div class="product-grid" id="products">
+          <!-- Produkt 1 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="img/sko1.webp" alt="ALBA Loafers Nappa Black" />
+            </div>
+
+            <h3>ALBA Loafers Nappa Black</h3>
+            <p>2.200,00 kr</p>
+          </article>
+
+          <!-- Produkt 2 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="img/sko2.webp" alt="ALBA Loafers Nappa Merlot" />
+            </div>
+
+            <h3>ALBA Loafers Nappa Merlot</h3>
+            <p>2.200,00 kr</p>
+          </article>
+
+          <!-- Produkt 3 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img src="img/sko3.webp" alt="ALBA Loafers Nappa Patent" />
+
+              <span class="sold-out">Sold Out</span>
+            </div>
+
+            <h3>ALBA Loafers Nappa Patent</h3>
+            <p>2.200,00 kr</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- THE ART OF CHOOSING -->
+      <section class="about-section" id="about">
+        <div class="about-image">
+          <img src="img/sko4.webp" alt="Woman wearing Yori Jomo loafers" />
+        </div>
+
+        <div class="about-content">
+          <h2>THE ART OF CHOOSING</h2>
+
+          <p>
+            The collections are designed for women who appreciate well-made
+            products rather than fast trends – styles intended to last both
+            aesthetically and in quality.
+          </p>
+
+          <a href="#craft">ABOUT US</a>
+        </div>
+      </section>
+
+      <!-- SHOP BY STYLE -->
+      <section class="shop-style">
+        <h2>Shop by style</h2>
+
+        <div class="style-grid">
+          <a href="#collection" class="style-card">
+            <img src="img/maryjanes.webp" alt="Mary Janes" />
+
+            <h3>Mary janes</h3>
+          </a>
+
+          <a href="#collection" class="style-card">
+            <img src="img/loafers.webp" alt="Loafers" />
+
+            <h3>Loafers</h3>
+          </a>
+
+          <a href="#collection" class="style-card">
+            <img src="img/sandals.webp" alt="Sandals" />
+
+            <h3>Sandals</h3>
+          </a>
+
+          <a href="#collection" class="style-card">
+            <img src="img/flats.webp" alt="Flats" />
+
+            <h3>Flats</h3>
+          </a>
+        </div>
+      </section>
+
+      <!-- MADE WITH INTENTION -->
+      <section class="craft-section" id="craft">
+        <img
+          src="img/landskab.webp"
+          alt="Italian landscape"
+          class="craft-image"
+        />
+
+        <div class="craft-content">
+          <h2>MADE WITH INTENTION</h2>
+
+          <p>
+            Copenhagen-based footwear brand,<br />
+            producing in Italy
+          </p>
+
+          <a href="#about">DISCOVER OUR CRAFT</a>
+        </div>
+      </section>
+
+      <!-- INSTAGRAM -->
+      <section class="instagram-section">
+        <div class="instagram-heading">
+          <h2>@YORIJOMO</h2>
+
+          <a
+            href="https://www.instagram.com/yorijomo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Follow us on instagram
+          </a>
+        </div>
+
+        <div class="instagram-grid">
+          <img src="img/instafeed.webp" alt="Yori Jomo Instagram feed" />
+        </div>
+      </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top">
+        <a href="index.html" class="footer-logo"> YORI JOMO </a>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#collection">SHOP</a>
+          <a href="#about">ABOUT</a>
+          <a href="#craft">RETAILERS</a>
+          <a href="mailto:info@example.com">CONTACT</a>
+        </nav>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/yorijomo/" aria-label="Instagram">
+            <img src="img/insta.webp" alt="" />
+          </a>
+
+          <a href="https://www.facebook.com/yorijomo" aria-label="Facebook">
+            <img src="img/facebook.webp" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="newsletter-text">
+          <h2>Join our email list</h2>
+
+          <p>Get exclusive deals and early access to new products.</p>
+        </div>
+
+        <form class="newsletter-form">
+          <label for="email" class="visually-hidden"> Email address </label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
